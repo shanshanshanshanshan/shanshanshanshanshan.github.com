@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>zts音乐播放器</title>
+<link rel="stylesheet" type="text/css" href="hname.css" media="screen and (max-width: 600px)"/>
+<link rel="stylesheet" type="text/css" href="record.css" media="screen and (max-width: 600px)"/>
+<link rel="stylesheet" type="text/css" href="font/iconfont.css"  media="screen and (max-width: 600px)"/>
+<link rel="stylesheet" type="text/css" href="list.css" media="screen and (max-width: 600px)"/>
+<style>
+*{ margin:0; padding:0;}
+body{ background-color:rgba(255,235,205,0.7); min-width:264px; }
+audio{ visibility:hidden}
+a{ cursor: pointer}
+</style>
+</head>
+
+<body>
+<header>
+<div class="osname name">
+<div  class="sname iname"><a>Lollipop Luxury</a></div>
+</div>
+<div class="oaname name">
+<div  class="aname iname"><a>Lollipop Luxury</a></div>
+</div>
+<div class="owname name">
+<div  class="wname iname"><a>—————/&nbsp;ZTS&nbsp;MAKE&nbsp;THIS&nbsp;/—————</a></div>
+</div>
+</header>
+
+<section>
+<div class="record">
+<div class="circle">
+    <div class="pie_left"><div class="left"></div></div>
+    <div class="pie_right"><div class="right"></div></div>
+    <div class="mask"> 
+    
+    <audio id="aud" controls>
+  <source src="music/0.mp3" >
+</audio>
+
+</div>
+</div>
+</div>
+
+
+<div class="ifont">
+<div class="fleft" id="fleft">
+<a class="iconfont myfont">&#xe697;&#xe697;&#xe697;</a>
+</div>
+
+<div class="fright" id="fright">
+<a class="iconfont myfont ">&#xe6a7;&#xe6a7;&#xe6a7;</a>
+</div>
+</div>
+
+
+</section>
+
+<nav>
+<div class="list list2">
+<div class="play"><a  class="playbtn iconfont">&#xe600;</a></div>
+<div class="song" ><div class="songn sn"><a>I Am You</a></div><div class="singn sn"><a>Kim Taylor</a></div></div>
+</div>
+
+<div class="list list0">
+<div class="play"><a  class="playbtn iconfont">&#xe600;</a></div>
+<div class="song"><div class="songn sn"><a>Unravel</a></div><div class="singn sn"><a>Ludovico</a></div></div>
+</div>
+
+<div class="list list1">
+<div class="play"><a  class="playbtn iconfont">&#xe600;</a></div>
+<div class="song"><div class="songn sn"><a>Skin</a></div><div class="singn sn"><a>Sixx:A.M</a></div></div>
+</div>
+
+<div class="list">
+<div class="play"><a  class="playbtn iconfont">&#xe600;</a></div>
+<div class="song"><div class="songn sn"><a>Almost Lover</a></div><div class="singn sn"><a>A Fine Frenzy</a></div></div>
+</div>
+</nav>
+
+<script type="text/jscript" src="events.js"></script>
+</body>
+</html>
