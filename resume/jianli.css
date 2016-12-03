@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0; padding:0;}
+body{ background-color: #B9B9B9; min-width:813px; position:relative; }
+.resume{  padding:50px; position: absolute; left:50%; margin-left:-406px; background-color:#FFF; }
+checkbox{ background-color:#FFF}
+
+.header{ zoom:1; }
+.header:after{ content:""; display:block; height:0; clear:both;}
+.h1{ width:300px; height:164px; float:left; }
+.h2{ width:300px; height:164px;float:left; }
+.h3{ width:110px; height:160px;float:left;border:1px solid #06F; background-image: url(jian.jpg); background-repeat:no-repeat; background-size:cover; background-position:center;}
+
+.name{ height:80px; border:1px solid #06F; border-bottom:none;text-align:center;line-height:80px; font-weight:900; font-size:36px;}
+.job{ height:40px; border:1px solid #06F; text-align:center;line-height:40px; font-weight:900; font-size: 18px;}
+.edu{ height:41px; }
+.inedu{ height:35px; width:95px; background-color:#538BEA; border-radius:10px; border:1px solid #CCC; text-align:center;line-height:35px; color:#FFF; position:relative; top:4px;}
+
+.sex{ height:26px;border-top:1px solid #06F;line-height:26px;}
+.tel{ height:26px;border-top:1px solid #06F;line-height:26px;}
+.home{ height:26px;border-top:1px solid #06F;line-height:26px;}
+.email{ height:40px; border-top:1px solid #06F;border-bottom:1px solid #06F; line-height:26px; }
+
+.educa{ width:713px;}
+.educa1{ border-top:3px solid #1F6A8B;line-height:30px; border-bottom:1px dashed #1F6A8B; color: #3E67B5; font-weight:700;}
+.educa>a{ display:inline-block; height:30px;}
+.educa2>a{ height:50px;line-height:50px;}
+.college{ position:relative; left:110px;}
+.education{position:relative; left:110px;}
+
+ul{list-style-type:none;  margin-left:10px;margin-top:10px;}
+ul>li{ height:30px;}
+.skill{ border-bottom:3px solid #1F6A8B; padding-bottom:4px;width:713px; }
+.exp{ }
+.expcon{ margin-top:20px;width:713px; margin-left:10px;}
+
+.cerls{ zoom:1; }
+.cerls:after{ content:""; display:block; height:0; clear:both;}
+.cer{ margin-top:10px;}
+.cerls{ margin-left:-60px;}
+.cerls>li{ float:left; margin-left:70px;}
